@@ -1,0 +1,27 @@
+.bg1{
+    background-color: #1b6d85;
+    color: white;
+}
+.bg2{
+    background-color: #3c763d;
+    color: white;
+}
+.container-fluid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.navbar{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+.navbar-right li a:hover{
+    background-color: #1b6d85 !important;
+}
+.bg4{
+    background-color: black;
+    color: white;
+}

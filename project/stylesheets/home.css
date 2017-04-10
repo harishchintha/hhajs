@@ -1,0 +1,56 @@
+.navbar{
+    padding: 10px;
+    background-color: cadetblue;
+    margin-bottom: 0;
+
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#userpic{
+    height:50px;
+    width: 50px;
+    padding: 5px;
+}
+.btn-default{
+    border-radius: 50%;
+}
+.nav li a:hover{
+    border: 2px groove #1b6d85;
+    border-radius: 50%;
+}
+.dropdown-menu li a:hover{
+    background-color: #1b6d85;
+    color: white;
+}
+.jumbotron{
+    border: solid #3c763d;
+    width: 100%;
+    background-color: hotpink;
+    color: #1b6d85;
+
+}
+.img-thumbnail:hover{
+    border: 2px inset #8c8c8c ;
+}
+.col-md-8{
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.col-md-4{
+    overflow: hidden;
+}
+label[for=register],label[for=login],label[for=forgotpwd]{
+    display: block;
+    background-color: #8c8c8c;
+    padding: 5px;
+    text-align: center;
+}
+.col-md-10{
+    margin-bottom: 50px;
+}
