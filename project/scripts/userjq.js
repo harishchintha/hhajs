@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(".logos").hide();
-    $("#hslogo").hide();
+    $("#hslogo").hide;
     $("#course").click(function () {
         var opt=$("#course option:selected");
         switch (opt.val()){
@@ -44,10 +44,9 @@ $(document).ready(function () {
                 $("#mysql").show();
                 $(".logo").children().not("#mysql").hide();
                 break;
-            case "slct":
-                $("#hslogo").show();
             default:
                 $("#hslogo").show();
+                $(".logo").children().not("#hslogo").hide();
         }
 
     });
