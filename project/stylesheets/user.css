@@ -1,0 +1,40 @@
+.container-fluid{
+    display: block;
+    height: 720px;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: #1b6d85;
+}
+.logo{
+    margin-top: 30px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #00b3ee;
+    width:60%;
+}
+.container img{
+    height: 300px;
+    width: 300px;
+}
+table{
+    padding: 10px;
+}
+td{
+    padding: 2px;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+.glyphicon{
+    padding-right: 4px;
+}
+.bg{
+    margin:auto;
+    height: 1200px;
+    width: 60%;
+    background-color: #1b6d85;
+    border-radius: 50%;
+}
